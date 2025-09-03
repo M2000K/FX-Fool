@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FX-Fool Strategie</title>
+    <style>
+        body {
+            background-color: #ffffff;
+            color: #333333;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #b8860b;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+        }
+        p, li {
+            margin: 8px 0;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        ul ul {
+            list-style-type: circle;
+        }
+        a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<h1>FX-Fool</h1>
+
+<h2>📈 Einstiegssignal (FX-Trading) – FX-Fool:</h2>
+<p><strong>a) Währung (EUR/USD)</strong><br>
+Das aktuelle Sentiment für den EUR/USD lässt sich unter folgendem Link abrufen:<br>
+👉 <a href="https://www.myfxbook.com/community/outlook/EURUSD" target="_blank">https://www.myfxbook.com/community/outlook/EURUSD</a></p>
+<ul>
+    <li>Überwiegt die rote Fläche, ist das ein Hinweis auf einen steigenden EUR/USD.</li>
+    <li>Dominiert die grüne Fläche, spricht das für fallende Kurse.</li>
+</ul>
+<p>Besonders effektiv ist dieser Indikator in etablierten Trendphasen – vor allem dann, wenn das Marktverhalten dem fundamentalen Sentiment widerspricht.</p>
+
+<p><strong>b) DAX-Indizes</strong><br>
+Das Euwax-Sentiment findest Du hier:<br>
+👉 <a href="https://www.boerse-stuttgart.de/de-de/tools/euwax-sentiment/" target="_blank">https://www.boerse-stuttgart.de/de-de/tools/euwax-sentiment/</a></p>
+<ul>
+    <li>Ein negativer Wert (&lt; 0) signalisiert Pessimismus unter Privatanlegern → Long-Position im DAX oder in Einzeltiteln.</li>
+    <li>Ein positiver Wert (&gt; 0) weist auf zu viel Optimismus hin → Short-Position.</li>
+</ul>
+<p>Auch hier gilt: Das Signal funktioniert besonders gut, wenn es dem fundamentalen Marktgefühl widerspricht.</p>
+
+<h2>📉 Ausstiegssignal (FX-Trading) – FX-Fool:</h2>
+<p>Bei einem Signalwechsel (z. B. von Long zu Short oder umgekehrt) erfolgt der Positionswechsel: Einstieg oder Ausstieg entsprechend dem neuen Signal.
+Die Signale basieren auf einem einfachen Regelwerk und lassen sich theoretisch stündlich überprüfen – eine tägliche Kontrolle reicht jedoch meist aus.</p>
+
+<h2>🛠️ Optimieren</h2>
+<ul>
+    <li>Verbesserung der Strategie durch individuelles Timing möglich.</li>
+    <li>FX-Fool mit Zinsdifferenz EUR/USD kombinieren – wenn die eine Strategie Long und die andere Short signalisiert, kein Trade durchführen.</li>
+    <li>FX-Fool mit weiteren Währungsstrategien wie EURUSD Steuerstichtag, Euroboost und Eurobust kombinieren – zur Signalbestätigung bei kurzer Haltedauer.</li>
+    <li>Eigene Scorecard EUR/USD erstellen – im Tradingbereich basierend auf 3-Daumen-Regel, Zinsdifferenz, EURUSD Steuerstichtag, Euroboost und Eurobust.</li>
+    <li>Wenn 2–3 Daumen nach oben zeigen → tendenziell EUR/USD Long, bei 2–3 nach unten → Short.</li>
+    <li>Alternativ nur Carry-positive Trades handeln (z. B. USD long = EURUSD short), wenn Broker den Zinsvorteil weitergeben</li>
+    <li>Bei symmetrischem Handel (long & short) sollte sich der Effekt langfristig ausgleichen</li>
+</ul>
+
+<h2>💡 Hinweise</h2>
+<ul>
+    <li>Strategie: <a href="https://www.andre-stagge.de/fx-fool/">https://www.andre-stagge.de/fx-fool/</a></li>
+    <li>Die Idee, das Gegenteil der Privatanleger zu machen, funktioniert bei Aktien & EUR/USD gut – insbesondere in Trendphasen mit fundamentalen Bewegungen.</li>
+    <li>In Seitwärtsmärkten sind FX und Euwax weniger zuverlässig – in starken Trendphasen jedoch wertvoll als Kontraindikator.</li>
+    <li>EUR/USD Forex Sentiment (myfxbook) zeigt die Positionierung der Privatanleger (Long/Short).</li>
+    <li>Der Euwax Sentiment Index zeigt die Einschätzung der Privatanleger zum DAX.</li>
+    <li>Strategie funktioniert gut bei steigendem Momentum – Privatanleger liegen tendenziell dagegen.</li>
+    <li>Forex Daytrader nutzen den Stundenchart von myfxbook; für alle anderen empfiehlt sich Tages- oder Stundenchart.</li>
+    <li>Für die DAX-Scorecard im Daytrading reicht 1× tägliche Prüfung (z. B. 11 Uhr) – Euwax-Sentiment über 0 = negativer Score (Annahme: fallender DAX) → Trefferquote ca. 65 %.</li>
+    <li>Ist das Euwax-Sentiment tagsüber positiv und steigt, während der DAX fällt → Fortsetzung des Abwärtstrends auch nach 15/16 Uhr möglich.</li>
+    <li>Es gibt auch bei IG eine Sentimentseite für Indizes, inkl. US-Märkte: <a href="https://www.ig.com/de/indizes/maerkte-indizes">https://www.ig.com/de/indizes/maerkte-indizes</a></li>
+    <li>Ansonsten für US-Märkte aktuell noch keinen perfekten Sentiment-Indikator & Webseiten gefunden. Fear &amp; Greed ist eine Möglichkeit, aber nicht ganz so aussagekräftig <a href="https://edition.cnn.com/markets/fear-and-greed">https://edition.cnn.com/markets/fear-and-greed</a></li>
+    <li>Börsenplätze weltweit haben unterschiedliche Handelszeiten und Feiertagsregelungen. Handelszeiten, handelsfreie Tage und verkürzte Handelszeiten beachten.
+        <ul>
+            <li><a href="https://www.boerse-frankfurt.de/handeln/handelszeiten-und-kalender">https://www.boerse-frankfurt.de/handeln/handelszeiten-und-kalender</a></li>
+            <li><a href="https://www.nyse.com/markets/hours-calendars">https://www.nyse.com/markets/hours-calendars</a></li>
+        </ul>
+    Auch andere Märkte auf lokale Börsenzeiten prüfen – besonders rund um Feiertage und Wochenenden. Wichtig für Orderausführung, Liquidität und Risikosteuerung.</li>
+    <li>Diese Strategie wird in Scorecard, Digitaler Kalender berücksichtigt.</li>
+</ul>
+
+</body>
+</html>
